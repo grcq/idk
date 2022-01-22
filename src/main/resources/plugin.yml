@@ -1,0 +1,12 @@
+name: Infection
+version: '${project.version}'
+main: cf.grcq.infection.Infection
+authors: [ Grcq ]
+description: Forking and recreating Infection plugin for GrapeAppleFruit. Showing how it should be done.
+
+commands:
+  start:
+  stopgame:
+    aliases:
+      - endgame
+  join:
